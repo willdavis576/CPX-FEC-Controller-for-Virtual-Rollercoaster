@@ -1,6 +1,7 @@
+
 STEP Start
   IF  N StartSS
-  THEN LOAD FW0
+  THEN LOAD FW0 //flags to outputs
          TO OW64
        LOAD FW1
          TO OW65
@@ -14,8 +15,7 @@ STEP Start
          TO OW69
        LOAD FW6
          TO OW0
-         
-       LOAD IW64
+       LOAD IW64 //inputs to flags
          TO FW7
        LOAD IW65
          TO FW8
