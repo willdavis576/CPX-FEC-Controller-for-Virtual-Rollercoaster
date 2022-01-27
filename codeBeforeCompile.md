@@ -1,0 +1,31 @@
+STEP Start
+  IF  N StartSS
+  THEN LOAD FW0
+         TO OW64
+       LOAD FW1
+         TO OW65
+       LOAD FW2
+         TO OW66
+       LOAD FW3
+         TO OW67
+       LOAD FW4
+         TO OW68
+       LOAD FW5
+         TO OW69
+       LOAD FW6
+         TO OW0
+         
+       LOAD IW64
+         TO FW7
+       LOAD IW65
+         TO FW8
+       LOAD IW66
+         TO FW9
+       LOAD IW67
+         TO FW10
+       LOAD IW68
+         TO FW11
+       LOAD IW69
+         TO FW12
+         
+       JMP TO Start
