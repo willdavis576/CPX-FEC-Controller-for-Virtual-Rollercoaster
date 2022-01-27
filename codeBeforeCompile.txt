@@ -1,4 +1,3 @@
-
 STEP Start
   IF  N StartSS
   THEN LOAD FW0 //flags to outputs
